@@ -1,11 +1,29 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+::selection {
+    color: white;
+    background: black;
+}
+
+.container h1 {
+    float: right;
+    position: relative;
+    right: 780px;
+    top: 16px;
+}
+
 body {
     margin: 1em;
+    background-color: white;
 }
 .card {
     margin-bottom: 1em;
 }
 .thumbnail {
-    margin-bottom: 2em;;
+    margin-bottom: 2em;
 }
 .list-group {
     margin-bottom: 2em;
