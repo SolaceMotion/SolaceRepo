@@ -2,6 +2,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+textarea {
+    text-align: center;
+}
 
 ::selection {
     color: white;
