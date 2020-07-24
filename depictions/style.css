@@ -4,6 +4,9 @@
 
 textarea {
     text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    resize: none;
 }
 
 ::selection {
@@ -89,4 +92,67 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
 
-}
+    input[type="checkbox"] {
+        -webkit-appearance: none;
+        visibility: hidden;
+        display: none;
+    }
+
+    /* .check {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 20px;
+        background: #092c3e;
+        cursor: pointer;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    input[type="checkbox"]:checked ~ .check {
+        background: white;
+        box-shadow: 0 0 0 1200px #092c3e;
+        */
+    }
+
+    ul {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        width: 120px;
+        height: 30px;
+        z-index: 1;
+        border: 1px solid #000;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    ul li {
+        list-style: none;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    ul.active li {
+        transform: translateY(-30px);
+    }
+
+    body.dark {
+        background: white;
+    }
+
+    ul li span {
+        display: block;
+        height: 30px;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    ul li span:nth-child(1) {
+        background: #1f1f1f;
+        color: #fff;
+    }
