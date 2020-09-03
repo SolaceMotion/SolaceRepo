@@ -26,21 +26,3 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
-Package: com.lacertosusrepo.spotifyaddtofavorites
-Name: Spotify AddToFavorites
-Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Architecture: iphoneos-arm
-Description: Favorite songs easier in Spotify...
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Section: Tweaks
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.spotifyaddtofavorites/
-SileoDepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.spotifyaddtofavorites/
-Version: 1.0.2
-Installed-Size: 136
-Size: 12018 
-MD5sum: e1b14f7f282d30f78885a8afbafe12fb
-Filename: ./debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.2_iphoneos-arm.deb
-Depiction: https://solacemotion.github.io/TweakRepo/depictions/?p=com.lacertosusrepo.spotifyaddtofavorites_1.0.2_iphoneos-arm
-
-
