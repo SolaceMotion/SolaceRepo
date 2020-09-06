@@ -54,12 +54,12 @@ This data are the links that appear at the bottom of every depication. The data 
     <footerlinks>
         <link>
             <name>Follow me on Twitter</name>
-            <url>https://twitter.com/Solace_Dev/</url>
+            <url>https://twitter.com/reposi3</url>
             <iconclass>glyphicon glyphicon-user</iconclass>
         </link>
         <link>
-            <name>Follow me on GitHub</name>
-            <url>https://github.com/SolaceMotion/</url>
+            <name>I want this depiction template</name>
+            <url>https://github.com/supermamon/Reposi3</url>
             <iconclass>glyphicon glyphicon-thumbs-up</iconclass>
         </link>
     </footerlinks>
