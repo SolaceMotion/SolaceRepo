@@ -9,10 +9,6 @@
     border: 0;
 }
 
-body {
-    
-}
-
 footer {
     width: 100vw;
     display: block;
@@ -222,23 +218,27 @@ h1, h2, h3, h4, h5, h6 {
     html.can-touch .link-item:active{ /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
-
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 800px) {
     .backgroundimage {
         background-size: 150%;
         height: 100vh;
         width: 100%;
     }
+    
+    .svg-container i:hover {
+        opacity: 1.0;
+        color: #ffffff;
+        font-size: 3em;
+    }
 }
 
-@media (max-width: 440px) { 
+@media (max-width: 440px) {
     .backgroundimage {
         background-size: 150%;
         height: 100vh;
         width: 100%;
         display: none;
-
     }
 }
