@@ -58,5 +58,17 @@ MD5sum: cea057bd9d26fa37e15c43d78386f9aa
 Filename: ./debs/solacemotion_0.0.1-2+debug_iphoneos-arm.deb
 Depiction: https://solacemotion.github.io/SolaceRepo/depictions/?p=solacemotion_0.0.1-2+debug_iphoneos-arm
 
-
-
+Package: com.solacemotion.dummytweak
+Name: dummytweak
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Solace
+Author: Solace
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.1-1+debug
+Installed-Size: 100
+Size: 2028
+MD5sum: 8f0c6771f9deda7bb019c28278c2275c
+Filename: ./debs/com.solacemotion.dummytweak_0.0.1-1+debug_iphoneos-arm.deb
+Depiction: https://solacemotion.github.io/SolaceRepo/depictions/?p=com.solacemotion.dummytweak_0.0.1-1+debug_iphoneos-arm
