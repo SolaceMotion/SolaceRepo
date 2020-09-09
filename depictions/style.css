@@ -9,6 +9,30 @@
     border: 0;
 }
 
+::selection {
+    color: #fff;
+    background-color: #621fff;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #621fff;
+}
+
+.circles {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 00px;
+    position: relative;
+    bottom: 110px;
+    z-index: -1;
+    text-align: center;
+}
+
+.redditicon {
+    
+}
+
 footer {
     width: 100vw;
     display: block;
@@ -48,16 +72,6 @@ html {
     overflow-y: scroll;
     scrollbar-width: thin;
 }*/
-
-::selection {
-    color: #fff;
-    background-color: #621fff;
-}
-
-::-moz-selection {
-    color: #fff;
-    background-color: #621fff;
-  }
 
 .fab, .fas {
     transition: ease 400ms;
@@ -115,6 +129,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
+    text-decoration: none;
+    color: white;
 }
 
 .icontext {
@@ -176,14 +192,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 129px;
 }
 
-.backgroundimage {
-    background-image: url("BG.png");
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: bottom right;
+body {
+    background-image: url("BG.png") /*url("circles.png")*/;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 75%, 45%;
+    background-position: bottom right, center;
     height: 100vh;
     width: 100%;
     position: absolute;
+    background-attachment: fixed;
     top: 0%;
     z-index: -999;
     display: block;
@@ -221,8 +238,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 800px) {
-    .backgroundimage {
-        background-size: 150%;
+    body {
+        background-size: 125%;
         height: 100vh;
         width: 100%;
     }
@@ -235,10 +252,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 440px) {
-    .backgroundimage {
-        background-size: 150%;
+    body {
         height: 100vh;
         width: 100%;
-        display: none;
+        background-image: none;
+    }
+}
+
+@media (min-width: 2450px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        background-size: 40%;
+        
     }
 }

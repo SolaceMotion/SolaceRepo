@@ -43,4 +43,20 @@ MD5sum: e1b14f7f282d30f78885a8afbafe12fb
 Filename: ./debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.2_iphoneos-arm.deb
 Depiction: https://solacemotion.github.io/TweakRepo/depictions/?p=com.lacertosusrepo.spotifyaddtofavorites_1.0.2_iphoneos-arm
 
+Package: solacemotion
+Name: transparent-dock
+Architecture: iphoneos-arm
+Description: A simple tweak that disables the background of the dock
+Maintainer: solace
+Author: solace
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.1-2+debug
+Installed-Size: 280
+Size: 7418
+MD5sum: cea057bd9d26fa37e15c43d78386f9aa
+Filename: ./debs/solacemotion_0.0.1-2+debug_iphoneos-arm.deb
+Depiction: https://solacemotion.github.io/SolaceRepo/depictions/?p=solacemotion_0.0.1-2+debug_iphoneos-arm
+
+
 
