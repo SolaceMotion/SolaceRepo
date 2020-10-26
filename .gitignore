@@ -1,1 +1,5 @@
 .DS_Store
+.vscode/
+.vs/
+.github/
+/depictions/style.css.map
